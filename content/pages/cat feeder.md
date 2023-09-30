@@ -18,7 +18,7 @@ Design goals for the project include:
 ![Feeder](/images/cat_feeder_still.png)
 
 
-A short animation showing the mechanical concept. [Cat Feeder](https://youtu.be/JP9D95I43UQ)
+A short animation showing the mechanical concept can be found [here](https://youtu.be/JP9D95I43UQ).
 
 
 ## Circuit Diagram

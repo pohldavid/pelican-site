@@ -1,6 +1,6 @@
 AUTHOR = 'dgp'
 SITENAME = "DGP's Website"
-SITESUBTITLE = "A Static Site"
+SITESUBTITLE = "A Static Site &copy; 2023 David G. Pohl"
 SITEURL = ''
 
 PATH = 'content'
@@ -34,7 +34,8 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 #THEME = './themes/simple'
-THEME = './themes/elegant'
+#THEME = './themes/elegant'
+THEME = './themes/bootlex'
 USE_FOLDER_AS_CATEGORY = True
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -42,4 +43,5 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 OUTPUT_RETENTION = []
 # A list of tuples (Title, URL) for additional menu items to appear at the beginning of the main menu.
-MENUITEMS = [('Home Menu Item',''), ('Menu Ttem 2','#')]
+MENUITEMS = [('Menu Item 1','#'), ('Menu Item 2','#')]
+
