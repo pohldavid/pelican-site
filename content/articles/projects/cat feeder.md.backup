@@ -1,0 +1,49 @@
+Title: Raspberry Cat Feeder
+Date: 2023-09-22 
+Tags: raspberry pi, python, blender
+Slug: raspberry-cat-feeder
+Author: DGP
+Summary: An automatic cat feeder powered by a raspberry pi
+
+# Raspberry Cat Feeder
+
+## An automatic cat feeder   
+
+Raspberry Cat Feeder is a an automatic cat feeder powered by [Raspberry Pi](https://www.raspberrypi.com/ "raspberrypi.com").  The [rcf] can be programmed to feed at prescribed intervals or on demand through a web interface.  
+
+Design goals for the project include:
+- assembled from inexpensive, commonly accessible hardware using simple hand tools available to the average DIYer.
+- provide food for extended away intervals
+- be reliable and low maintenance
+- be rodent and vermin "*proof* "
+
+
+## Mechanical
+
+A short animation showing the mechanical concept. [Cat Feeder](https://youtu.be/JP9D95I43UQ)
+
+
+## Circuit Diagram
+
+A circuit diagram is shown below as well as a list of the major components used in the prototype version built.  The selection of these components was strictly based on parts available on hand at the time.
+
+![Circuit Diagram](/images/cat_feeder_circuit_diagram.png "Diagram")
+
+N.B. some of these relay modules may behave differently. Caution should be exercised - transistor driver circuits and or pull up/down resistors may
+be required to ensure reliable relay operation and or damage to the pi.
+
+## Software 
+
+---
+
+
+### pandoc commands
+
+> pandoc -s README.md -c mvp.css --metadata title="Raspberry Cat Feeder" -o README.html
+
+
+
+[# Raspberry Cat Feeder](#raspberry-cat-feeder)
+
+[rcf]: #raspberry-cat-feeder 
+
